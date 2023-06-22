@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Park & Pick Intreprise",
+    "slug": "ParkIntreprise",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/favicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/favicon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFAF1"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.reconfort.ParkIntreprise"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFAF1"
+      },
+      "package": "com.reconfort.ParkIntreprise"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fba273e3-6261-4963-814c-d01afc45b24e"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/fba273e3-6261-4963-814c-d01afc45b24e"
+    }
+  }
+}
